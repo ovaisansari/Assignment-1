@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(241, 211, 216);">
+    <div>
+        <h1 style="color: rgb(26, 26, 126) ;" class="under">INTRODUCTION TO HTML</h1>
+
+            <h2>1. HEADING TAGS</h2>
+                <h1>Heading 1</h1>
+                <h2 style="color: black;">Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+
+            <h2>2. p, br, span & hr TAGS</h2>
+                <p>
+                Lorem ipsum dolor sit amet elit. <br> vitae est et, nam nulla enim maxime beatae.
+                </p>
+                <span>
+                Lorem ipsum dolor sit amet
+                </span>
+                <hr width=60% color="black">
+
+            <h2>3. Bold & Italic TAGS</h2>
+                <em>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </em>
+                <br>
+                <strong>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </strong>
+
+            <h2>4. Ordered & Unordered List</h2>
+                <h3>Unordered List Example: Ingredients</h3>
+                <ul>
+                    <li>Tea Powder</li>
+                    <li>Sugar</li>
+                    <li>Milk</li>
+                </ul>
+                <h3>Ordered List Example: Recipie</h3>
+                <ol>
+                    <li>Take the milk in a cleam utencil</li>
+                    <li>Place it on a stove</li>
+                    <li>Add required amount of Tea powder and sugar</li>
+                    <li>Let it cook untill it boils for 2-3 min</li>
+                    <li>ready to be served</li>
+                </ol>
+
+            <h2>5. Image Tag, Audio & Video Tags</h2>
+                <img src="/Images/Beam Shear Force.png" width="500" height="250">
+                <img src="Nature.jpg" alt="Loading Image, Please wait">
+                <br><br>
+                <audio controls>
+                    <source src="/Audios/koyal.mp3" type="koyal audio/mpeg">
+                </audio>
+                <br>
+                <video controls width="500" height="300">
+                    <source src="/Videos/whale.mp4" />
+                </video>
+                <br>
+
+            <h2>6. Anchor Tag</h2>
+                <div>
+                    An image as a link
+                    <a href="ovaisansari12@gmail.com">
+                    <img src="/Images/Gmail.png" width="50" height="50" target="_blank">
+                    </a>
+                </div>
+                <br>
+                <a href="9876543210" target="_blank">
+                    My Contact No.
+                </a>
+                <br><br>
+                <a href="https://www.aaandassociates.in" target="_blank">Visit my website</a>
+                <!-- If we use target="_blank" in anchor tag,
+                it opens in a fresh page -->
+                <br><br>
+                
+            <h2>7. Navigation Tag</h2>
+                <div><nav>
+                    <a href="https://www.aaandassociates.in" target="_blank">Home</a>   |
+                    <a href="https://www.aaandassociates.in/about-us" target="_blank">About Us</a>   |
+                    <a href="https://www.aaandassociates.in/services" target="_blank">Services</a>   |
+                    <a href="https://www.aaandassociates.in/projects" target="_blank">Projects</a>   |
+                    <a href="https://www.aaandassociates.in/clients" target="_blank">Clients</a>   |
+                    <a href="https://www.aaandassociates.in/contact-us" target="_blank">Contact Us</a>
+                </nav>
+                <br>
+                <!-- <nav>
+                    <ul>
+                        <li><a href="https://www.aaandassociates.in" target="_blank">Home</a></li>
+                        <li><a href="https://www.aaandassociates.in/about-us" target="_blank">About Us</a></li>
+                        <li><a href="https://www.aaandassociates.in/services" target="_blank">Services</a></li>
+                        <li><a href="https://www.aaandassociates.in/projects" target="_blank">Projects</a></li>
+                        <li><a href="https://www.aaandassociates.in/clients" target="_blank">Clients</a></li>
+                        <li><a href="https://www.aaandassociates.in/contact-us" target="_blank">Contact Us</li>
+                    </ul>
+                </nav></div>
+                <br> -->
+
+            <h2>8. Tables</h2>
+                <table style="">
+                    <tr>
+                        <th>Sl.No.</th>
+                        <th>Name</th>
+                        <th>Place</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>1. </td>
+                        <td>Salman</td>
+                        <td>Bangalore</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>2. </td>
+                        <td>Tajammul</td>
+                        <td>Channapattana</td>
+                        <td>26</td>
+                    </tr>
+                </table>
+                <br>
+            
+            <h2>9. Forms</h2>
+                <form>
+                    <label for="1">First Name:</label>
+                    <input type="text" id="1" placeholder="Salman" name="1" required>
+                    <br><br>
+                    <label for="2">Last Name:</label>
+                    <input type="text" id="2" placeholder="Khan">
+                    <br><br>
+                    <input type="submit">
+                    <input type="reset">
+                    <br><br><br>
+                
+                    <label for="3">Username:</label>
+                    <input type="text" id="3" name="3" required>
+                    <br><br>
+                    <label for="4">password:</label>
+                    <input type="password" id="4" name="4" required>
+                    <br><br>
+                    <label for="5">Photo:</label>
+                    <input type="file" id="5" name="5">
+                    <br><br>
+                    <input type="submit">
+                    <br><br><br>
+
+                    <label for="Age">Age :</label>
+                    <input type="number" id="Age" name="Age" min="0" max="100" step="5">
+                    <br><br>
+                    <label for="DOB">DOB :</label>
+                    <input type="date"  id="DOB" name="DOB">
+                    <br><br>
+                    <label for="Bio">Bio :</label>
+                    <textarea></textarea>
+                    <br><br><br>
+
+                    <label for="Phone">Phone :</label>
+                    <input type="tel" id="Phone" name="Phone" placeholder="+91">
+                    <br><br>
+                    <label for="url">url :</label>
+                    <input type="url" id="url" name="url" placeholder="@gmail.com">
+                    <br><br>
+                    <label for="color">color :</label>
+                    <input type="color" id="color" name="color">
+                    <br><br><br>
+                </form>
+
+            <h2>10. Chekboxes & Radio Buttons</h2>
+                <h3>Chekboxes</h3>
+                <label for="HTML">HTML</label>
+                <input type="checkbox" id="HTML">
+                <br>
+                <label for="CSS">CSS</label>
+                <input type="checkbox" id="CSS">
+                <br>
+                <label for="JS">JS</label>
+                <input type="checkbox" id="JS">
+                <br>
+                <label for="REACT">REACT</label>
+                <input type="checkbox" id="REACT">
+                <br>
+
+                <h3>Radio Button</h3>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="Gender" value="Male">
+                <br>
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="Gender" value="Female">
+                <br>
+                <label for="Other">Other</label>
+                <input type="radio" id="Other" name="Gender" value="Other">
+          
+        <h2>11. Pseudo Class & Pseudo Element</h2>
+            <p class="Pseudo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Earum, modi! Laboriosam nihil inventore veritatis itaque doloremque dolorum quibusdam dolorem sapiente.<br>Exercitationem ducimus fugit officia sit aut, atque ipsa expedita sequi.
+            </p>
+            <h3 class="under">Hover on the above paragraph</h3>
+            <br><br><br>
+
+        <h1 class="centre">THE END</h1>
+
+    </div>
+</body>
+</html>

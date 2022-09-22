@@ -1,0 +1,21 @@
+.under{
+    margin-left: 400px;
+    text-decoration: underline;
+}
+.Pseudo:hover{
+    background-color: rgb(67, 161, 27);
+    margin-right: 650px;
+}
+.Pseudo::first-letter{
+    font-size: 100px;
+    color: red;
+}
+h2{
+    color: maroon;
+}
+.centre{
+    margin-left: 450px;
+}
+*{
+    padding-left: 25px;
+}
